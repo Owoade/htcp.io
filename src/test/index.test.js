@@ -4,7 +4,6 @@ import htcpio  from "./htcp.io.js"
 
 
 describe("htcp.io tests", () => {
-  
  let req, ClientServer;
   before((done) => {
     const io = htcpio()
